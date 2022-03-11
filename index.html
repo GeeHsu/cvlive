@@ -15,6 +15,9 @@
     .bg-attachment-fixed {
       background-attachment: fixed;
     }
+    .object-fit-cover {
+      object-fit: cover;
+    }
     .deco-box {
       height: 240px;
       width: 240px;
@@ -24,6 +27,7 @@
 </head>
 <body>
 
+  <!-- 個人簡歷: Header 首圖製作 start -->
   <header class="min-vh-100 position-relative">
     <div class="deco-box position-absolute top-0 start-0"></div>
     <div class="deco-box position-absolute bottom-0 end-0"></div>
@@ -35,6 +39,27 @@
       <p>在對的道路上迷失是件多麼美好的事情。</p>
     </div>
   </header>
+  <!-- 個人簡歷: Header 首圖製作 end -->
+
+  <!-- 個人簡歷: 自我介紹區塊 start -->
+  <div class="container py-5">
+    <div class="row gy-3 justify-content-center flex-md-row-reverse">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1509467283235-ad1568d50691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="w-100 object-fit-cover" height="500" alt="">
+      </div>
+      <div class="col-md-5 d-flex align-items-center">
+        <div>
+          <h2 class="display-4">我的旅遊類型：</h2>
+          <p>背包客（英語：backpacker，衍生自backpacking一詞），就是背著背包做長途自助旅行的人，被稱呼為背包客的旅行者往往是在有限的預算下進行旅行活動，所以他們對於旅行的規劃、景點的獨到之處也常有自成一派的見解。</p>
+          <p>在旅遊界裡，擁有豐富經驗的背包客往往相當受人關注，此外，目前背包客也能泛指登山、露營、冒險活動的戶外活動參與者。類似旅遊形式還有沙發客，以低預算甚至免費的形式進行旅遊。</p>
+          <a href="#" class="btn btn-outline-primary mt-4 w-100">
+            看更多我的旅遊類型
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 個人簡歷: 自我介紹區塊 end -->
 
 </body>
 </html>
