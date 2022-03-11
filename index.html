@@ -15,6 +15,10 @@
     .bg-attachment-fixed {
       background-attachment: fixed;
     }
+    .bg-dark-gradient {
+      /* linear-gradient(方向性, 色彩); */
+      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    }
     .object-fit-cover {
       object-fit: cover;
     }
@@ -62,46 +66,49 @@
   <!-- 個人簡歷: 自我介紹區塊 end -->
 
   <!-- 個人簡歷: 三欄式卡片運用 start -->
-  <div class="bg-light py-5 m-md-5">
+  <!-- 個人簡歷: 卡片樣式調整 start -->
+  <div class="bg-light p-md-5 py-5 m-md-5">
     <div class="container">
       <h2 class="display-4 text-center mb-4">
         我的旅遊景點：
       </h2>
       <div class="row row-cols-1 row-cols-lg-3 g-4">
         <div class="col">
-          <div class="card bg-dark text-white">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+          <div class="card text-white border-5 h-100">
+            <img src="https://images.unsplash.com/photo-1534570122623-99e8378a9aa7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="card-img h-100 object-fit-cover" alt="...">
+            <div class="card-img-overlay top-auto bg-dark-gradient">
+              <h5 class="card-title">在海邊與大海近距離接觸</h5>
+              <p class="card-text">在海邊可以望向大海，藉由海浪的聲音消除心中的壓力，在此刻我們與大海在此刻像是彼此訴說的朋友。</p>
+              <a href="#" class="btn btn-outline-light stretched-link w-100">看內容</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card bg-dark text-white">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+          <div class="card text-white border-5 h-100">
+            <img src="https://images.unsplash.com/photo-1553808354-cda09bba39dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="card-img h-100 object-fit-cover" alt="...">
+            <div class="card-img-overlay top-auto bg-dark-gradient">
+              <h5 class="card-title">在山中生活與草木相伴</h5>
+              <p class="card-text">在山中可以望向高山，藉由山中的慢步調與自然景觀，我們可以在此與草木相伴，就像有朋友靜靜地陪伴一樣。</p>
+              <a href="#" class="btn btn-outline-light stretched-link w-100">看內容</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card bg-dark text-white">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+          <div class="card text-white border-5 h-100">
+            <img src="https://images.unsplash.com/photo-1598920710727-e6c74781538c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="card-img h-100 object-fit-cover" alt="...">
+            <div class="card-img-overlay top-auto bg-dark-gradient">
+              <h5 class="card-title">向陽下的向日葵花海</h5>
+              <p class="card-text">在好天氣下的向日葵花海，周圍花香環繞，我們可以聞著花香、看著一望無際的花海，讓我們身心上的心靈再次滋養。</p>
+              <a href="#" class="btn btn-outline-light stretched-link w-100">看內容</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- 個人簡歷: 卡片樣式調整 end -->
   <!-- 個人簡歷: 三欄式卡片運用 end -->
+  
 
 </body>
 </html>
