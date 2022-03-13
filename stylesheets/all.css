@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -9179,6 +9180,15 @@ fieldset:disabled .btn {
   visibility: hidden !important;
 }
 
+.bg-attachment-fixed {
+  background-attachment: fixed !important;
+}
+
+.object-fit-cover {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -12690,5 +12700,23 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+.deco-box {
+  height: 240px;
+  width: 240px;
+  background-color: #2a2e22;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bg-dark-gradient {
+  /* linear-gradient(方向性, 色彩); */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
 }
 /*# sourceMappingURL=all.css.map */
